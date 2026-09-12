@@ -1,0 +1,30 @@
+site_name: SecureVault Documentation
+site_description: Documentation for SecureVault users, administrators, and developers.
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+
+  - User Guide:
+      - Upload a Document: user-guide/upload-document.md
+      - Share a Document: user-guide/share-document.md
+      - Delete a Document: user-guide/delete-document.md
+
+  - Admin Guide:
+      - Manage Users: admin-guide/manage-users.md
+      - Give a User Access: admin-guide/give-user-access.md
+      - Remove User Access: admin-guide/remove-user-access.md
+
+  - Developer Guide:
+      - Quick Start: developer-guide/quick-start.md
+      - API Overview: developer-guide/api-overview.md
+      - Authentication: developer-guide/authentication.md
+      - Request and Response Format: developer-guide/request-response-format.md
+      - Error Codes: developer-guide/error-codes.md
+      - Security: developer-guide/security.md
+      - Upload a Document: developer-guide/upload-document.md
+      - Delete a Document: developer-guide/delete-document.md
+      - API Reference:
+          - Document Permissions: developer-guide/API-Reference.md/document-permissions.md It from the command line
